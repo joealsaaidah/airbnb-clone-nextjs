@@ -12,7 +12,7 @@ const Header = () => {
       {/* left */}
       <div className='relative flex items-center h-10 cursor-pointer my-auto'>
         <Image
-          src='/images/logo.png'
+          src='/images/Logo.png'
           alt='logo'
           layout='fill'
           objectFit='contain'

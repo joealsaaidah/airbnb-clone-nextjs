@@ -13,7 +13,7 @@ export default function Home({ smallCardData, mediumCardData, largeCardData }) {
         <title>MiMiCuCu-Airbnb</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <main className='max-w-7xl mx-auto px-8 sm:px-10'>
         <section className='pt-6'>
@@ -45,7 +45,7 @@ export default function Home({ smallCardData, mediumCardData, largeCardData }) {
           buttonText={largeCardData?.buttonText}
         />
       </main>
-      <Footer />
+      {/*  <Footer /> */}
     </div>
   );
 }

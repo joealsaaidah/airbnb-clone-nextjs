@@ -1,4 +1,5 @@
 import { useRouter } from "next/dist/client/router";
+import Map from "../components/Map";
 import Search from "../components/Search";
 
 const search = ({ searchResults }) => {
@@ -6,15 +7,13 @@ const search = ({ searchResults }) => {
   const { location, startDate, endDate, noOfGuests } = router.query;
 
   return (
-    <main className='flex'>
-      <Search
-        location={location}
-        startDate={startDate}
-        endDate={endDate}
-        noOfGuests={noOfGuests}
-        searchResults={searchResults}
-      />
-    </main>
+    <Search
+      location={location}
+      startDate={startDate}
+      endDate={endDate}
+      noOfGuests={noOfGuests}
+      searchResults={searchResults}
+    />
   );
 };
 
